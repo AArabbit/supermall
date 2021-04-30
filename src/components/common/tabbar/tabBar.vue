@@ -7,18 +7,20 @@
 
 <script>
 export default {
-  components: {
-  }
+  components: {},
 };
 </script>
 
-<style>
+<style scoped>
 .tabbar {
   display: flex;
   background-color: #f3f3f3;
+  width: 100%;
+
   position: fixed;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
+  z-index: 9;
 }
 </style>

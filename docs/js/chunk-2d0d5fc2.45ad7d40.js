@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d5fc2"],{"712d":function(t,e,a){"use strict";a.r(e);var d=a("7a23"),c=Object(d["H"])("data-v-12d367b2");Object(d["t"])("data-v-12d367b2");var n=Object(d["h"])("h2",null,"购物车",-1);Object(d["r"])();var b=c((function(t,e,a,c,b,r){return Object(d["q"])(),Object(d["e"])("div",null,[n])})),r={name:"ShopCart"};r.render=b,r.__scopeId="data-v-12d367b2";e["default"]=r}}]);
+//# sourceMappingURL=chunk-2d0d5fc2.45ad7d40.js.map

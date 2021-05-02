@@ -1,12 +1,12 @@
 <template>
   <div class="goodsItem">
-    <img class="itemImg" :src="goodsItem.show.img" :alt="goodsItem.title" />
+    <img class="itemImg" :src="goodsItem.show.img" :alt="goodsItem.title"/>
     <div class="goodsInfo">
       <p>{{ goodsItem.title }}</p>
       <span class="orgPrice">{{ goodsItem.orgPrice }}</span>
       &nbsp;
       <span class="cfav">
-        <img src="../../../assets/img/common/collect.svg" alt="">
+        <img src="@/assets/img/common/collect.svg">
         {{ goodsItem.cfav }}
         </span>
     </div>
@@ -54,4 +54,10 @@ export default {
   padding-bottom: 5px;
   vertical-align: middle;
 }
+/* 
+.goodsItem::after {
+  content: "";
+  height: 50px;
+  display: block;
+} */
 </style>

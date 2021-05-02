@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <router-view v-slot="{ Component }">
+      <keep-alive include="Home">
+        <component :is="Component"></component>
+      </keep-alive>
+    </router-view>
+
     <mainTabBar></mainTabBar>
   </div>
 </template>

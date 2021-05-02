@@ -1,8 +1,17 @@
 <template>
   <div class="tabbar-item" @click="itemClick">
-    <div v-if="isActive"><slot name="item-img-active"></slot></div>
-    <div v-else><slot name="item-img"></slot></div>
-    <div :style="activeStyle"><slot name="item-text"></slot></div>
+
+    <div v-if="isActive">
+      <slot name="item-img-active"></slot>
+    </div>
+    
+    <div v-else>
+      <slot name="item-img"></slot>
+    </div>
+
+    <div :style="activeStyle">
+      <slot name="item-text"></slot>
+    </div>
   </div>
 </template>
 

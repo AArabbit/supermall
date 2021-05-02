@@ -5,18 +5,16 @@ export function request(config) {
     timeout: 5000
   })
 
+  // 拦截器
   instance.interceptors.request.use(config => {
-  // Do something before request is sent
   return config;
   },error => {
-  // Do something with request error
   });
 
+  // 响应
   instance.interceptors.response.use(response => {
-  // Do something before response is sent
   return response;
   },error => {
-  // Do something with response error
   });
 
   return instance(config)

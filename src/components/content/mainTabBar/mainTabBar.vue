@@ -50,7 +50,6 @@
     </tabBarItem>
 
   </tabBar>
-  <router-view></router-view>
 </template>
 
 <script>
